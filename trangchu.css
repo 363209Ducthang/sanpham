@@ -1,0 +1,32 @@
+#navbar-one {
+    height: 80px;
+    width: 100%;
+    background-color:rgb(225, 49, 175) ;
+    display: flex;
+    justify-content: space-between;
+}
+.navbar-one_kiss {
+    display: flex;
+    padding:10px 35px;
+    font-size: 35px;
+    
+}
+.fa-solid fa-house {
+    margin-left: 35px;
+}
+#navbarcolor {
+    height: 50px;
+    width: 100%;
+    background-color: rgb(225, 49, 175);
+    display: flex;
+    justify-content: space-around;
+    color: aliceblue;
+    position: absolute;
+}
+.navbar-brand {
+    position: relative;
+    margin-top: 10px;
+}
+#carouselExampleSlidesOnly {
+    margin-top: 26px;
+}
