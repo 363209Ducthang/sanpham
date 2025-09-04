@@ -1,9 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Epunda+Slab:ital,wght@0,300..900;1,300..900&display=swap');
 #navbar-one {
     height: 80px;
     width: 100%;
     background-color:rgb(225, 49, 175) ;
     display: flex;
     justify-content: space-between;
+}
+.d-flex {
+    width: 60%;
+    height: 30px;
+    margin-top: 2.5%;
 }
 .navbar-one_kiss {
     display: flex;
@@ -29,4 +35,67 @@
 }
 #carouselExampleSlidesOnly {
     margin-top: 26px;
+}
+/* #h3pcgaming {
+    margin-left: 50%;
+} */
+#khungpcgaming {
+    height: 600px;
+    width: 80%;
+    position: relative;
+    background-color: red;
+    margin-left: 10%;
+    position: relative;
+}
+#nenkhung {
+    position: absolute;
+    width: 99%;
+    height: 93%;
+    /* background-color: aliceblue; */
+    margin: 2px 4px;
+    display: flex;
+    justify-content: space-around;
+}
+#cardpcgaming {
+    display: flex;
+    justify-content: space-around;
+    height: 93%;
+    width: 99%;
+    justify-content: space-around;
+}
+.card-title {
+    height: 50%;
+    width: 100%;
+}
+#khungcarddohoa{
+    height: 600px;
+    width: 80%;
+    position: relative;
+    background-color: rgb(211, 43, 160);
+    margin-left: 10%;
+    position: relative;
+}
+#nenkhungcarddohoa {
+    position: absolute;
+    width: 99%;
+    height: 93%;
+    /* background-color: aliceblue; */
+    margin: 2px 4px;
+    display: flex;
+    justify-content: space-around;
+}
+#carddohoa {
+    display: flex;
+    justify-content: space-around;
+    height: 93%;
+    width: 99%;
+    justify-content: space-around;
+}
+.card-title {
+    height: 50%;
+    width: 100%;
+}
+.card-img-top {
+    width: 100%;
+    height: 40%;
 }
