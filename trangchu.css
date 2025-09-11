@@ -1,15 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Epunda+Slab:ital,wght@0,300..900;1,300..900&display=swap');
+#header {
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    z-index: 10;
+}
 #navbar-one {
     height: 80px;
     width: 100%;
-    background-color:rgb(225, 49, 175) ;
+    background-color:rgba(227, 92, 24, 0.99) ;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .d-flex {
     width: 60%;
     height: 30px;
-    margin-top: 2.5%;
+    margin-top: 2.0%;
+}
+.thedangnhapdangki {
+    margin-top: 27px;
+    background-color: rgb(225, 49, 175);
+    width: 90px;
+    height: 40px;
+    background-color: rgba(43, 255, 0, 0.533);
+    border-radius: 20%;
+    text-align: center;
+    line-height: 40px;
+    text-decoration: none;
+    color: white;
 }
 .navbar-one_kiss {
     display: flex;
